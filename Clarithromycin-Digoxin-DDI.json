@@ -1,0 +1,4275 @@
+{
+  "Version": 76,
+  "Individuals": [
+    {
+      "Name": "European (P-gp modified, CYP3A4 36 h)",
+      "Seed": 1745497687,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "AADAC",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "BloodCells",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Plasma",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Bone",
+              "Value": 4.8717948718E-05
+            },
+            {
+              "Name": "Brain",
+              "Value": 3.9743589744E-05
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0011923076923
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.0026602564103
+            },
+            {
+              "Name": "Kidney",
+              "Value": 5.7051282051E-05
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0269230769
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.00020833333333
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.1474358974
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.00037115384615
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0775641026
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.00010384615385
+            }
+          ]
+        },
+        {
+          "Name": "ABCB1",
+          "Type": "Transporter",
+          "TransportType": "Efflux",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0341950646
+            },
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.1072855464
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.024559342
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.059106933
+            },
+            {
+              "Name": "Kidney",
+              "MembraneLocation": "Apical",
+              "Value": 1.0
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0927144536
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0180963572
+            },
+            {
+              "Name": "Pancreas",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0200940071
+            },
+            {
+              "Name": "Spleen",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1047003525
+            },
+            {
+              "Name": "Stomach",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0367802585
+            },
+            {
+              "Name": "SmallIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LargeIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "Duodenum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "UpperJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "LowerJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "UpperIleum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "LowerIleum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "ColonAscendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonTransversum",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonDescendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonSigmoid",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.41,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "OATP1B1",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.00014166666667
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0141666667
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0008253968254
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 4.0079365079E-05
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.00064682539683
+            }
+          ]
+        },
+        {
+          "Name": "OATP1B3",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0326065214
+            },
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.026415244
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.041669701
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0574843621
+            },
+            {
+              "Name": "Kidney",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0249619939
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0227975502
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0151497833
+            },
+            {
+              "Name": "Pancreas",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0094097200792
+            },
+            {
+              "Name": "Skin",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0107729681
+            },
+            {
+              "Name": "Spleen",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0113959291
+            },
+            {
+              "Name": "Stomach",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0102007599
+            },
+            {
+              "Name": "SmallIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0194716112
+            },
+            {
+              "Name": "LargeIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0081029350428
+            },
+            {
+              "Name": "Duodenum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0194716112
+            },
+            {
+              "Name": "UpperJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0194716112
+            },
+            {
+              "Name": "LowerJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0194716112
+            },
+            {
+              "Name": "UpperIleum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0194716112
+            },
+            {
+              "Name": "LowerIleum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0194716112
+            },
+            {
+              "Name": "ColonAscendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.0081029350428
+            },
+            {
+              "Name": "ColonTransversum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0081029350428
+            },
+            {
+              "Name": "ColonDescendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.0081029350428
+            },
+            {
+              "Name": "ColonSigmoid",
+              "MembraneLocation": "Apical",
+              "Value": 0.0081029350428
+            }
+          ]
+        },
+        {
+          "Name": "ATP1A2",
+          "Type": "OtherProtein",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "ExtracellularMembrane",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "Value": 0.0062154033171
+            },
+            {
+              "Name": "Brain",
+              "Value": 1.0
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0508741242
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.3179118843
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0158938619
+            },
+            {
+              "Name": "Periportal",
+              "Value": 0.0223784807
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 0.0223784807
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0272345453
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.7034193524
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.0073903254795
+            },
+            {
+              "Name": "Skin",
+              "Value": 0.0389467988
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.0103243118
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0309435884
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.0786998764
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.47661714,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Clarithromycin",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.3,
+              "Unit": "Log Units"
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.299
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 12.17,
+              "Unit": "mg/ml"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 2.4
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "fit",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 1.23E-06,
+              "Unit": "dm/min"
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 8.99,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "fit",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Km",
+              "Value": 48.7,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 76.5,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "KidneyClearance",
+          "DataSource": "fitted",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Body weight",
+              "Value": 71.5,
+              "Unit": "kg",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Blood flow rate (kidney)",
+              "Value": 1.31,
+              "Unit": "l/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.4
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 1.75,
+              "Unit": "ml/min/kg"
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Eberl (2007)",
+          "Molecule": "ABCB1",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 4.1,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "InternalName": "IrreversibleInhibition",
+          "DataSource": "fitted",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "kinact",
+              "Value": 0.04,
+              "Unit": "1/min"
+            },
+            {
+              "Name": "K_kinact_half",
+              "Value": 6.04,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Vermeer 2016",
+          "Molecule": "OATP1B1",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 5.3,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Vermeer 2016",
+          "Molecule": "OATP1B3",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 14.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 747.9534,
+          "Unit": "g/mol"
+        }
+      ]
+    },
+    {
+      "Name": "Digoxin",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Hinderling 1984",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.22,
+              "Unit": "Log Units"
+            }
+          ]
+        },
+        {
+          "Name": "Zaragoza Dörwald 2012, Book",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.29,
+              "Unit": "Log Units"
+            }
+          ]
+        },
+        {
+          "Name": "Atkinson 1988",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.67,
+              "Unit": "Log Units"
+            }
+          ]
+        },
+        {
+          "Name": "Sangster J; LOGKOW Databank",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.26,
+              "Unit": "Log Units"
+            }
+          ]
+        },
+        {
+          "Name": "ALOGPS, CALCULATED",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.04,
+              "Unit": "Log Units"
+            }
+          ]
+        },
+        {
+          "Name": "ChemAxon, CALCULATED",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.37,
+              "Unit": "Log Units"
+            }
+          ]
+        },
+        {
+          "Name": "Alsenz 2007",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.623,
+              "Unit": "Log Units"
+            }
+          ]
+        },
+        {
+          "Name": "fitted",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.40017663,
+              "Unit": "Log Units"
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Neuhoff (2013)",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.71
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Aqueous Solubility, AQUASOL dATAbASE (1992)",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 64.8,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        },
+        {
+          "Name": "Aqueous Solubility, Alsenz 2007",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 30.0,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.5
+            }
+          ]
+        },
+        {
+          "Name": "Phosphate buffer, Alsenz 2007",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 16.0,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.5
+            }
+          ]
+        },
+        {
+          "Name": "FaSSIF, Alsenz 2007",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 17.0,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.5
+            }
+          ]
+        },
+        {
+          "Name": "FeSSIF, Alsenz 2007",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 4.0,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 5.0
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Zhao, 2014",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 4.8E-09,
+              "Unit": "dm/min"
+            }
+          ]
+        },
+        {
+          "Name": "fitted",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 2.7627E-07,
+              "Unit": "dm/min"
+            }
+          ]
+        }
+      ],
+      "Permeability": [
+        {
+          "Name": "Zhao, 2014",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Permeability",
+              "Value": 7.98E-07,
+              "Unit": "dm/min"
+            }
+          ]
+        },
+        {
+          "Name": "fitted",
+          "Parameters": [
+            {
+              "Name": "Permeability",
+              "Value": 1.0115E-05,
+              "Unit": "dm/min"
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [],
+      "Processes": [
+        {
+          "InternalName": "SpecificBinding",
+          "DataSource": "Katz (2010)",
+          "Molecule": "ATP1A2",
+          "Parameters": [
+            {
+              "Name": "koff",
+              "Value": 0.00098888,
+              "Unit": "1/min"
+            },
+            {
+              "Name": "Kd",
+              "Value": 25.6,
+              "Unit": "nmol/l"
+            }
+          ]
+        },
+        {
+          "InternalName": "LiverClearance",
+          "DataSource": "fitted",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Body weight",
+              "Value": 60.0341442787,
+              "Unit": "kg",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Volume (liver)",
+              "Value": 1.8995457119,
+              "Unit": "l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Blood flow rate (liver)",
+              "Value": 0.3407785007,
+              "Unit": "l/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Blood flow rate (portal vein)",
+              "Value": 0.9949208478,
+              "Unit": "l/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.71
+            },
+            {
+              "Name": "Lipophilicity (experiment)",
+              "Value": 2.58,
+              "Unit": "Log Units"
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 0.0,
+              "Unit": "ml/min/kg"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.03758077,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "ActiveTransportSpecific_MM",
+          "DataSource": "Stephens (2001)",
+          "Molecule": "ABCB1",
+          "Parameters": [
+            {
+              "Name": "Transporter concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 8.67,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 177.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 71.16312,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Description": "correctes as 100.34/1.41"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "Steiness (1982)",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 780.93,
+          "Unit": "g/mol"
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Tablet Clarithromycin",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 5.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 2.9
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 0.0
+        }
+      ]
+    },
+    {
+      "Name": "Solution",
+      "FormulationType": "Formulation_Dissolved"
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "DDI with Clarithromycin - Clarithromycin po, Gurley 2008, 2x 500 mg, 7d",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 500.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 14.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - Clarithromycin po, Rengelsh. 2003, 2x 250 mg 3 d",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 250.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 6.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - Clarithromycin po, Tsutsumi 2002, 2x 200 mg, 5 d",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 200.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 10.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - DDI Digoxin iv, Rengelsh. 2003, 0.01 mg/kg, 0.067 h",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "IntravenousBolus",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.01,
+                  "Unit": "mg/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 26.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - DDI Digoxin iv, Tsutsumi 2002, 0.5 mg, 1 h",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Intravenous",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.5,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Infusion time",
+                  "Value": 60.0,
+                  "Unit": "min"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - DDI Digoxin po, Gurley 2008, 0.25 mg",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.25,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 144.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - DDI Digoxin po, Rengelsh. 2003, 0.75 mg",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.75,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 24.5,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - Control Digoxin iv, Rengelsh. 2003, 0.01 mg/kg, 0.067 h",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "IntravenousBolus",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.01,
+                  "Unit": "mg/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - Control Digoxin iv, Tsutsumi 2002, 0.5 mg, 1 h",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Intravenous",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.5,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Infusion time",
+                  "Value": 60.0,
+                  "Unit": "min"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - Control Digoxin po, Gurley 2008, 0.25 mg",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.25,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - Control Digoxin po, Rengelsh. 2003, 0.75 mg",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.75,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Gurley, po DDI Control",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Gurley '08, 0.25 mg Digoxin po, n=18, Digoxin control"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 20.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|DDI with Clarithromycin - Control Digoxin po, Gurley 2008, 0.25 mg|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Digoxin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Aqueous Solubility, AQUASOL dATAbASE (1992)",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Total Hepatic Clearance-fitted"
+            },
+            {
+              "Name": "ABCB1-Stephens (2001)",
+              "MoleculeName": "ABCB1"
+            },
+            {
+              "Name": "Glomerular Filtration-Steiness (1982)"
+            },
+            {
+              "Name": "ATP1A2-Katz (2010)",
+              "MoleculeName": "ATP1A2"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - Control Digoxin po, Gurley 2008, 0.25 mg",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Gurley, po DDI Control-Digoxin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Gurley, po DDI Control|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Gurley '08, 0.25 mg Digoxin po, n=18, Digoxin control-Digoxin-Peripheral Venous Blood-Plasma-Digo  ",
+              "X": "Gurley '08, 0.25 mg Digoxin po, n=18, Digoxin control|Time  1",
+              "Y": "Gurley '08, 0.25 mg Digoxin po, n=18, Digoxin control|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|Digo  ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Clarithromycin-Digoxin-DDI\nGurley, po DDI Control\n2019-11-18 11:28"
+        }
+      ]
+    },
+    {
+      "Name": "Rengelshausen 2003, iv, DDI Control",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Rengelsh. '03, 0.01 mg_kg Digoxin iv, 0.067 h, n=3, Digoxin control"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 20.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Digoxin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Aqueous Solubility, AQUASOL dATAbASE (1992)",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Total Hepatic Clearance-fitted"
+            },
+            {
+              "Name": "ABCB1-Stephens (2001)",
+              "MoleculeName": "ABCB1"
+            },
+            {
+              "Name": "Glomerular Filtration-Steiness (1982)"
+            },
+            {
+              "Name": "ATP1A2-Katz (2010)",
+              "MoleculeName": "ATP1A2"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - Control Digoxin iv, Rengelsh. 2003, 0.01 mg/kg, 0.067 h"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rengelshausen 2003, iv, DDI Control-Digoxin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rengelshausen 2003, iv, DDI Control|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Rengelsh. '03, 0.01 mg_kg Digoxin iv, 0.067 h, n=3, Digoxin control-Digoxin-Peripheral Venous Blood-Plasma-Digoxin  ",
+              "X": "Rengelsh. '03, 0.01 mg_kg Digoxin iv, 0.067 h, n=3, Digoxin control|Time  ",
+              "Y": "Rengelsh. '03, 0.01 mg_kg Digoxin iv, 0.067 h, n=3, Digoxin control|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|Digoxin  ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Clarithromycin-Digoxin-DDI\nRengelshausen 2003, iv, DDI Control\n2019-11-18 11:32"
+        }
+      ]
+    },
+    {
+      "Name": "Rengelshausen 2003, po, DDI Control",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Rengelsh. '03, 0.75 mg Digoxin po, n=12, Digoxin control"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 30.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|DDI with Clarithromycin - Control Digoxin po, Rengelsh. 2003, 0.75 mg|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Digoxin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Aqueous Solubility, AQUASOL dATAbASE (1992)",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Total Hepatic Clearance-fitted"
+            },
+            {
+              "Name": "ABCB1-Stephens (2001)",
+              "MoleculeName": "ABCB1"
+            },
+            {
+              "Name": "Glomerular Filtration-Steiness (1982)"
+            },
+            {
+              "Name": "ATP1A2-Katz (2010)",
+              "MoleculeName": "ATP1A2"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - Control Digoxin po, Rengelsh. 2003, 0.75 mg",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rengelshausen 2003, po, DDI Control-Digoxin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rengelshausen 2003, po, DDI Control|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Rengelsh. '03, 0.75 mg Digoxin po, n=12, Digoxin control-Digoxin-Peripheral Venous Blood-Plasma-Digoxin  ",
+              "X": "Rengelsh. '03, 0.75 mg Digoxin po, n=12, Digoxin control|Time  ",
+              "Y": "Rengelsh. '03, 0.75 mg Digoxin po, n=12, Digoxin control|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|Digoxin  ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Clarithromycin-Digoxin-DDI\nRengelshausen 2003, po, DDI Control\n2019-11-18 11:39"
+        }
+      ]
+    },
+    {
+      "Name": "Tsutsumi 2002, iv, DDI Control",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Tsutsumi '02, 0.5 mg Digoxin iv, 1 h, n=9, Digoxin control"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 25.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|DDI with Clarithromycin - Control Digoxin iv, Tsutsumi 2002, 0.5 mg, 1 h|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 60.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Digoxin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Aqueous Solubility, AQUASOL dATAbASE (1992)",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Total Hepatic Clearance-fitted"
+            },
+            {
+              "Name": "ABCB1-Stephens (2001)",
+              "MoleculeName": "ABCB1"
+            },
+            {
+              "Name": "Glomerular Filtration-Steiness (1982)"
+            },
+            {
+              "Name": "ATP1A2-Katz (2010)",
+              "MoleculeName": "ATP1A2"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - Control Digoxin iv, Tsutsumi 2002, 0.5 mg, 1 h"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tsutsumi 2002, iv, DDI Control-Digoxin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Tsutsumi 2002, iv, DDI Control|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Tsutsumi '02, 0.5 mg Digoxin iv, 1 h, n=9, Digoxin control-Digoxin-Peripheral Venous Blood-Plasma-Digo  ",
+              "X": "Tsutsumi '02, 0.5 mg Digoxin iv, 1 h, n=9, Digoxin control|Time ",
+              "Y": "Tsutsumi '02, 0.5 mg Digoxin iv, 1 h, n=9, Digoxin control|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|Digo  ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Clarithromycin-Digoxin-DDI\nTsutsumi 2002, iv, DDI Control\n2019-11-18 11:41"
+        }
+      ]
+    },
+    {
+      "Name": "Gurley, PO, DDI",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Gurley '08, 0.25 mg Digoxin po, n=18, Digoxin + Clarithromycin"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 152.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gurley 2008, 2x 500 mg, 7d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gurley 2008, 2x 500 mg, 7d|Tablet Clarithromycin|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gurley 2008, 2x 500 mg, 7d|Tablet Clarithromycin|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gurley 2008, 2x 500 mg, 7d|Tablet Clarithromycin|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gurley 2008, 2x 500 mg, 7d|Tablet Clarithromycin|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gurley 2008, 2x 500 mg, 7d|Tablet Clarithromycin|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gurley 2008, 2x 500 mg, 7d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gurley 2008, 2x 500 mg, 7d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gurley 2008, 2x 500 mg, 7d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gurley 2008, 2x 500 mg, 7d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gurley 2008, 2x 500 mg, 7d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gurley 2008, 2x 500 mg, 7d|Tablet Clarithromycin|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gurley 2008, 2x 500 mg, 7d|Tablet Clarithromycin|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gurley 2008, 2x 500 mg, 7d|Tablet Clarithromycin|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - DDI Digoxin po, Gurley 2008, 0.25 mg|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Clarithromycin|P (blood cells->plasma)",
+          "Value": 1.04E-06,
+          "Unit": "dm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Clarithromycin|P (plasma->blood cells)",
+          "Value": 3.62E-05,
+          "Unit": "dm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Clarithromycin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Renal Clearances-fitted"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - Clarithromycin po, Gurley 2008, 2x 500 mg, 7d",
+            "Formulations": [
+              {
+                "Name": "Tablet Clarithromycin",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Digoxin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Aqueous Solubility, AQUASOL dATAbASE (1992)",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Total Hepatic Clearance-fitted"
+            },
+            {
+              "Name": "ABCB1-Stephens (2001)",
+              "MoleculeName": "ABCB1"
+            },
+            {
+              "Name": "Glomerular Filtration-Steiness (1982)"
+            },
+            {
+              "Name": "ATP1A2-Katz (2010)",
+              "MoleculeName": "ATP1A2"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - DDI Digoxin po, Gurley 2008, 0.25 mg",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 140.0,
+              "Max": 152.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Gurley '08, 0.25 mg Digoxin po, + Clari, n=18-Digoxin-Peripheral Venous Blood-Plasma-Digo ",
+              "X": "Gurley '08, 0.25 mg Digoxin po, n=18, Digoxin + Clarithromycin|Time ",
+              "Y": "Gurley '08, 0.25 mg Digoxin po, n=18, Digoxin + Clarithromycin|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|Digo ",
+              "CurveOptions": {
+                "Color": "#FF8080",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Gurley, PO, DDI-Digoxin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Gurley, PO, DDI|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF8080",
+                "LegendIndex": 2
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Clarithromycin-Digoxin-DDI\nGurley, PO, DDI\n2019-11-13 17:43"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-fitted",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "ABCB1-Eberl (2007)",
+          "MoleculeName": "ABCB1",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "OATP1B1-Vermeer 2016",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "OATP1B3-Vermeer 2016",
+          "MoleculeName": "OATP1B3",
+          "CompoundName": "Clarithromycin"
+        }
+      ]
+    },
+    {
+      "Name": "Rengelshausen 2003, iv, DDI",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Rengelsh. '03, 0.01 mg/kg Digoxin iv, 0.067 h,  n=3, Digoxin + Clarithromycin"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 38.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Rengelsh. 2003, 2x 250 mg 3 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Rengelsh. 2003, 2x 250 mg 3 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Rengelsh. 2003, 2x 250 mg 3 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Rengelsh. 2003, 2x 250 mg 3 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Rengelsh. 2003, 2x 250 mg 3 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Rengelsh. 2003, 2x 250 mg 3 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Clarithromycin|P (blood cells->plasma)",
+          "Value": 1.04E-06,
+          "Unit": "dm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Clarithromycin|P (plasma->blood cells)",
+          "Value": 3.62E-05,
+          "Unit": "dm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Clarithromycin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Renal Clearances-fitted"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - Clarithromycin po, Rengelsh. 2003, 2x 250 mg 3 d",
+            "Formulations": [
+              {
+                "Name": "Tablet Clarithromycin",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Digoxin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Aqueous Solubility, AQUASOL dATAbASE (1992)",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Total Hepatic Clearance-fitted"
+            },
+            {
+              "Name": "ABCB1-Stephens (2001)",
+              "MoleculeName": "ABCB1"
+            },
+            {
+              "Name": "Glomerular Filtration-Steiness (1982)"
+            },
+            {
+              "Name": "ATP1A2-Katz (2010)",
+              "MoleculeName": "ATP1A2"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - DDI Digoxin iv, Rengelsh. 2003, 0.01 mg/kg, 0.067 h"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 25.0,
+              "Max": 38.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rengelshausen 2003, iv, DDI-Digoxin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rengelshausen 2003, iv, DDI|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF8080",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Rengelsh. '03, 0.01 mgkg iv-Digoxin-Peripheral Venous Blood-Plasma-Digoxin + Clari ",
+              "X": "Rengelsh. '03, 0.01 mgkg iv|Time ",
+              "Y": "Rengelsh. '03, 0.01 mgkg iv|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|Digoxin + Clari ",
+              "CurveOptions": {
+                "Color": "#FF8080",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Clarithromycin-Digoxin-DDI\nRengelshausen 2003, iv, DDI\n2019-11-13 17:45"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-fitted",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "ABCB1-Eberl (2007)",
+          "MoleculeName": "ABCB1",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "OATP1B1-Vermeer 2016",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "OATP1B3-Vermeer 2016",
+          "MoleculeName": "OATP1B3",
+          "CompoundName": "Clarithromycin"
+        }
+      ]
+    },
+    {
+      "Name": "Rengelshausen 2003, po, DDI",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Rengelsh. '03, 0.75 mg Digoxin po, n=12, Digoxin + Clarithromycin"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 50.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Rengelsh. 2003, 2x 250 mg 3 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Rengelsh. 2003, 2x 250 mg 3 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Rengelsh. 2003, 2x 250 mg 3 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Rengelsh. 2003, 2x 250 mg 3 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Rengelsh. 2003, 2x 250 mg 3 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Rengelsh. 2003, 2x 250 mg 3 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - DDI Digoxin po, Rengelsh. 2003, 0.75 mg|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Clarithromycin|P (blood cells->plasma)",
+          "Value": 1.04E-06,
+          "Unit": "dm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Clarithromycin|P (plasma->blood cells)",
+          "Value": 3.62E-05,
+          "Unit": "dm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Clarithromycin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Renal Clearances-fitted"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - Clarithromycin po, Rengelsh. 2003, 2x 250 mg 3 d",
+            "Formulations": [
+              {
+                "Name": "Tablet Clarithromycin",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Digoxin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Aqueous Solubility, AQUASOL dATAbASE (1992)",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Total Hepatic Clearance-fitted"
+            },
+            {
+              "Name": "ABCB1-Stephens (2001)",
+              "MoleculeName": "ABCB1"
+            },
+            {
+              "Name": "Glomerular Filtration-Steiness (1982)"
+            },
+            {
+              "Name": "ATP1A2-Katz (2010)",
+              "MoleculeName": "ATP1A2"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - DDI Digoxin po, Rengelsh. 2003, 0.75 mg",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 25.0,
+              "Max": 38.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rengelshausen 2003, po, DDI-Digoxin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rengelshausen 2003, po, DDI|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF8080",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Rengelsh. '03, 0.75 mg po-Digoxin-Peripheral Venous Blood-Plasma-Digoxin + Clari ",
+              "X": "Rengelsh. '03, 0.75 mg po|Time ",
+              "Y": "Rengelsh. '03, 0.75 mg po|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|Digoxin + Clari ",
+              "CurveOptions": {
+                "Color": "#FF8080",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Clarithromycin-Digoxin-DDI\nRengelshausen 2003, po, DDI\n2019-11-13 17:46"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-fitted",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "ABCB1-Eberl (2007)",
+          "MoleculeName": "ABCB1",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "OATP1B1-Vermeer 2016",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "OATP1B3-Vermeer 2016",
+          "MoleculeName": "OATP1B3",
+          "CompoundName": "Clarithromycin"
+        }
+      ]
+    },
+    {
+      "Name": "Tsutsumi, iv, DDI",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Tsutsumi '02, 0.5 mg Digoxin iv, 1 h, n=9, Digoxin + Clarithromycin"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 50.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Tsutsumi 2002, 2x 200 mg, 5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Tsutsumi 2002, 2x 200 mg, 5 d|Tablet Clarithromycin|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Tsutsumi 2002, 2x 200 mg, 5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Tsutsumi 2002, 2x 200 mg, 5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Tsutsumi 2002, 2x 200 mg, 5 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Tsutsumi 2002, 2x 200 mg, 5 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Tsutsumi 2002, 2x 200 mg, 5 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Tsutsumi 2002, 2x 200 mg, 5 d|Tablet Clarithromycin|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Tsutsumi 2002, 2x 200 mg, 5 d|Tablet Clarithromycin|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Tsutsumi 2002, 2x 200 mg, 5 d|Tablet Clarithromycin|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - DDI Digoxin iv, Tsutsumi 2002, 0.5 mg, 1 h|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 60.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Clarithromycin|P (blood cells->plasma)",
+          "Value": 1.04E-06,
+          "Unit": "dm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Clarithromycin|P (plasma->blood cells)",
+          "Value": 3.62E-05,
+          "Unit": "dm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Clarithromycin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Renal Clearances-fitted"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - Clarithromycin po, Tsutsumi 2002, 2x 200 mg, 5 d",
+            "Formulations": [
+              {
+                "Name": "Tablet Clarithromycin",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Digoxin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Aqueous Solubility, AQUASOL dATAbASE (1992)",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Total Hepatic Clearance-fitted"
+            },
+            {
+              "Name": "ABCB1-Stephens (2001)",
+              "MoleculeName": "ABCB1"
+            },
+            {
+              "Name": "Glomerular Filtration-Steiness (1982)"
+            },
+            {
+              "Name": "ATP1A2-Katz (2010)",
+              "MoleculeName": "ATP1A2"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - DDI Digoxin iv, Tsutsumi 2002, 0.5 mg, 1 h"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tsutsumi, iv, DDI-Digoxin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Tsutsumi, iv, DDI|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF8080",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Tsutsumi '02, 0.5 mg iv-Digoxin-Peripheral Venous Blood-Plasma-Digo + Clari ",
+              "X": "Tsutsumi '02, 0.5 mg iv|Time",
+              "Y": "Tsutsumi '02, 0.5 mg iv|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|Digo + Clari ",
+              "CurveOptions": {
+                "Color": "#FF8080",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Clarithromycin-Digoxin-DDI\nTsutsumi, iv, DDI\n2019-11-13 17:48"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-fitted",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "ABCB1-Eberl (2007)",
+          "MoleculeName": "ABCB1",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "OATP1B1-Vermeer 2016",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "OATP1B3-Vermeer 2016",
+          "MoleculeName": "OATP1B3",
+          "CompoundName": "Clarithromycin"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Gurley '08, 0.25 mg Digoxin po, n=18, Digoxin + Clarithromycin",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\ENEMF\\Desktop\\Digoxin DDI DDI.xlsx.po Gurley '08"
+        },
+        {
+          "Name": "File",
+          "Value": "Digoxin DDI DDI"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "po Gurley '08"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Digoxin2"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Digo ",
+          "RelatedColumns": [
+            {
+              "Name": "Digo SD ",
+              "QuantityInfo": {
+                "Name": "Digo SD ",
+                "Path": "Gurley '08, 0.25 mg Digoxin po, n=18, Digoxin + Clarithromycin|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|Digo SD "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2016-05-10T14:34:02.8089138+02:00",
+                "Source": "Digoxin DDI DDI.po Gurley '08.Digo SD [ng/ml]",
+                "MolWeight": 780.93
+              },
+              "Values": [
+                0.5525369,
+                0.610147,
+                0.408511,
+                0.398036,
+                0.379706,
+                0.319476,
+                0.340426,
+                0.1911621,
+                0.1204583
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Digo ",
+            "Path": "Gurley '08, 0.25 mg Digoxin po, n=18, Digoxin + Clarithromycin|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|Digo "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2016-05-10T14:34:02.8089138+02:00",
+            "Source": "Digoxin DDI DDI.po Gurley '08.Digo [ng/ml]",
+            "MolWeight": 780.93
+          },
+          "Values": [
+            0.8661211,
+            1.557447,
+            1.709329,
+            1.620295,
+            1.308674,
+            1.067758,
+            0.798036039,
+            0.5178396,
+            0.3869067
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Gurley '08, 0.25 mg Digoxin po, n=18, Digoxin + Clarithromycin|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2016-05-10T14:34:02.8089138+02:00",
+          "Source": "Digoxin DDI DDI.po Gurley '08.Time [h]"
+        },
+        "Values": [
+          144.33,
+          144.67,
+          145.0,
+          145.5,
+          146.0,
+          146.5,
+          147.0,
+          148.0,
+          150.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Rengelsh. '03, 0.01 mg/kg Digoxin iv, 0.067 h,  n=3, Digoxin + Clarithromycin",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\ENEMF\\Desktop\\Digoxin Observed data Start at t=0.xls.Rengelsh. '03, 0.01 mgkg iv"
+        },
+        {
+          "Name": "File",
+          "Value": "Digoxin Observed data Start at t=0"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Rengelsh. '03, 0.01 mgkg iv"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Digoxin2"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Digoxin + Clari ",
+          "QuantityInfo": {
+            "Name": "Digoxin + Clari ",
+            "Path": "Rengelsh. '03, 0.01 mgkg iv|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|Digoxin + Clari "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2016-02-02T19:26:36.9008169+01:00",
+            "Source": "Digoxin Observed data Start at t=0.Rengelsh. '03, 0.01 mgkg iv.1.Digoxin + Clari [µg/l]",
+            "MolWeight": 780.93
+          },
+          "Values": [
+            19.4582,
+            26.5634689,
+            14.4427195,
+            12.58514,
+            8.869968,
+            7.151703,
+            5.665635,
+            3.94736814,
+            3.343653,
+            2.46130013,
+            1.62538707,
+            1.06811106,
+            0.6501548,
+            0.6965944,
+            0.4179567
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Rengelsh. '03, 0.01 mgkg iv|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2016-02-02T19:26:36.9008169+01:00",
+          "Source": "Digoxin Observed data Start at t=0.Rengelsh. '03, 0.01 mgkg iv.1.Time [h]"
+        },
+        "Values": [
+          26.08,
+          26.17,
+          26.25,
+          26.33,
+          26.5,
+          26.75,
+          27.0,
+          27.25,
+          27.5,
+          28.0,
+          29.0,
+          30.0,
+          32.0,
+          34.0,
+          36.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Rengelsh. '03, 0.75 mg Digoxin po, n=12, Digoxin + Clarithromycin",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\ENEMF\\Desktop\\Digoxin Observed data Start at t=0.xls.Rengelsh. '03, 0.75 mg po"
+        },
+        {
+          "Name": "File",
+          "Value": "Digoxin Observed data Start at t=0"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Rengelsh. '03, 0.75 mg po"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Digoxin2"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Digoxin + Clari ",
+          "RelatedColumns": [
+            {
+              "Name": "SD (1)",
+              "QuantityInfo": {
+                "Name": "SD (1)",
+                "Path": "Rengelsh. '03, 0.75 mg po|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|SD (1)"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2016-02-02T19:36:02.1054096+01:00",
+                "Source": "Digoxin Observed data Start at t=0.Rengelsh. '03, 0.75 mg po.1.SD [µg/l](1)",
+                "MolWeight": 780.93
+              },
+              "Values": [
+                "NaN",
+                2.37538624,
+                3.06820321,
+                2.54034,
+                1.84752309,
+                1.55059767,
+                1.61657846,
+                1.41863275,
+                1.22068357,
+                0.8247853,
+                0.5608554,
+                0.461879075,
+                0.329914451,
+                "NaN",
+                "NaN",
+                "NaN"
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "µg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Digoxin + Clari ",
+            "Path": "Rengelsh. '03, 0.75 mg po|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|Digoxin + Clari "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2016-02-02T19:36:02.1054096+01:00",
+            "Source": "Digoxin Observed data Start at t=0.Rengelsh. '03, 0.75 mg po.1.Digoxin + Clari [µg/l]",
+            "MolWeight": 780.93
+          },
+          "Values": [
+            0.152381,
+            2.88571382,
+            4.75238132,
+            5.304762,
+            5.27619028,
+            4.961905,
+            5.02857161,
+            4.219048,
+            3.523809,
+            2.476191,
+            2.038095,
+            1.49523807,
+            0.8857143,
+            0.6380953,
+            0.485714316,
+            0.409523815
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Rengelsh. '03, 0.75 mg po|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2016-02-02T19:36:02.1054096+01:00",
+          "Source": "Digoxin Observed data Start at t=0.Rengelsh. '03, 0.75 mg po.1.Time [h]"
+        },
+        "Values": [
+          24.67,
+          24.83,
+          25.0,
+          25.17,
+          25.33,
+          25.5,
+          25.75,
+          26.0,
+          26.5,
+          27.0,
+          27.5,
+          28.5,
+          30.5,
+          32.5,
+          34.5,
+          36.5
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Tsutsumi '02, 0.5 mg Digoxin iv, 1 h, n=9, Digoxin + Clarithromycin",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\ENEMF\\Desktop\\Digoxin\\Digoxin Data.xls.Tsutsumi '02, 0.5 mg iv"
+        },
+        {
+          "Name": "File",
+          "Value": "Digoxin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tsutsumi '02, 0.5 mg iv"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Digoxin2"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Digo + Clari ",
+          "QuantityInfo": {
+            "Name": "Digo + Clari ",
+            "Path": "Tsutsumi '02, 0.5 mg iv|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|Digo + Clari "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2015-10-30T18:19:18.0412511+01:00",
+            "Source": "Digoxin Data.Tsutsumi '02, 0.5 mg iv.1.Digo + Clari [ng/mL]",
+            "MolWeight": 780.93
+          },
+          "Values": [
+            5.81663132,
+            7.84221649,
+            8.929638,
+            3.172708,
+            1.914712,
+            1.381663,
+            1.1258,
+            0.91258,
+            0.6780384,
+            0.5927505,
+            0.6140725,
+            0.4648188
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Tsutsumi '02, 0.5 mg iv|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2015-10-30T18:19:18.0412511+01:00",
+          "Source": "Digoxin Data.Tsutsumi '02, 0.5 mg iv.1.Time[h]"
+        },
+        "Values": [
+          24.33,
+          24.67,
+          25.0,
+          25.5,
+          26.0,
+          26.5,
+          27.0,
+          28.0,
+          29.0,
+          30.0,
+          32.0,
+          36.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Tsutsumi '02, 0.5 mg Digoxin iv, 1 h, n=9, Digoxin control",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Tsutsumi '02, 0.5 mg Digoxin iv, 1 h, n=9.xlsx.Tsutsumi '02, 0.5 mg Digoxin "
+        },
+        {
+          "Name": "File",
+          "Value": "Tsutsumi '02, 0.5 mg Digoxin iv, 1 h, n=9"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tsutsumi '02, 0.5 mg Digoxin "
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Digoxin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Digo  ",
+          "QuantityInfo": {
+            "Name": "Digo  ",
+            "Path": "Tsutsumi '02, 0.5 mg Digoxin iv, 1 h, n=9, Digoxin control|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|Digo  "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-18T11:30:01.7661889+01:00",
+            "Source": "Tsutsumi '02, 0.5 mg Digoxin iv, 1 h, n=9.Tsutsumi '02, 0.5 mg Digoxin .Digo  [ng/ml]",
+            "MolWeight": 780.93
+          },
+          "Values": [
+            6.157783,
+            8.119403,
+            9.100213,
+            3.151386,
+            1.808102,
+            1.296375,
+            1.01919,
+            0.805970132,
+            0.6780384,
+            0.6353945,
+            0.5927505,
+            0.4648188
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Tsutsumi '02, 0.5 mg Digoxin iv, 1 h, n=9, Digoxin control|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-18T11:30:01.7661889+01:00",
+          "Source": "Tsutsumi '02, 0.5 mg Digoxin iv, 1 h, n=9.Tsutsumi '02, 0.5 mg Digoxin .Time [h]"
+        },
+        "Values": [
+          0.329999924,
+          0.6700001,
+          1.0,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          8.0,
+          12.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Rengelsh. '03, 0.75 mg Digoxin po, n=12, Digoxin control",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Rengelsh. '03, 0.75 mg Digoxin po, n=12.xlsx.Rengelsh. '03, 0.75 mg Digoxi"
+        },
+        {
+          "Name": "File",
+          "Value": "Rengelsh. '03, 0.75 mg Digoxin po, n=12"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Rengelsh. '03, 0.75 mg Digoxi"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Digoxin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Digoxin  ",
+          "RelatedColumns": [
+            {
+              "Name": "SD  ",
+              "QuantityInfo": {
+                "Name": "SD  ",
+                "Path": "Rengelsh. '03, 0.75 mg Digoxin po, n=12, Digoxin control|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|SD  "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-18T11:29:45.5986479+01:00",
+                "Source": "Rengelsh. '03, 0.75 mg Digoxin po, n=12.Rengelsh. '03, 0.75 mg Digoxi.SD  [µg/l]",
+                "MolWeight": 780.93
+              },
+              "Values": [
+                "NaN",
+                1.29028618,
+                1.49033058,
+                1.59035277,
+                1.40031052,
+                1.00022185,
+                0.8801952,
+                0.790175259,
+                0.5701265,
+                0.5001109,
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "µg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Digoxin  ",
+            "Path": "Rengelsh. '03, 0.75 mg Digoxin po, n=12, Digoxin control|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|Digoxin  "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-18T11:29:45.5986479+01:00",
+            "Source": "Rengelsh. '03, 0.75 mg Digoxin po, n=12.Rengelsh. '03, 0.75 mg Digoxi.Digoxin  [ng/ml]",
+            "MolWeight": 780.93
+          },
+          "Values": [
+            0.1385948,
+            1.40904725,
+            2.32435036,
+            2.66506267,
+            2.81809449,
+            2.75457168,
+            2.69393635,
+            2.58999038,
+            2.03272367,
+            1.67468715,
+            1.45524549,
+            1.07699716,
+            0.6207892,
+            0.349374384,
+            0.291626543,
+            0.256977856,
+            0.179018289
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time  ",
+        "QuantityInfo": {
+          "Name": "Time  ",
+          "Path": "Rengelsh. '03, 0.75 mg Digoxin po, n=12, Digoxin control|Time  ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-18T11:29:45.5986479+01:00",
+          "Source": "Rengelsh. '03, 0.75 mg Digoxin po, n=12.Rengelsh. '03, 0.75 mg Digoxi.Time  [h]"
+        },
+        "Values": [
+          0.170000076,
+          0.329999924,
+          0.5,
+          0.6700001,
+          0.8299999,
+          1.0,
+          1.25,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Rengelsh. '03, 0.01 mg_kg Digoxin iv, 0.067 h, n=3, Digoxin control",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Rengelsh. '03, 0.01 mg_kg Digoxin iv, 0.067 h, n=3.xlsx.Rengelsh. '03, 0.01 mg_kg Dig"
+        },
+        {
+          "Name": "File",
+          "Value": "Rengelsh. '03, 0.01 mg_kg Digoxin iv, 0.067 h, n=3"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Rengelsh. '03, 0.01 mg_kg Dig"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Digoxin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Digoxin  ",
+          "QuantityInfo": {
+            "Name": "Digoxin  ",
+            "Path": "Rengelsh. '03, 0.01 mg_kg Digoxin iv, 0.067 h, n=3, Digoxin control|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|Digoxin  "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-18T11:29:29.6522504+01:00",
+            "Source": "Rengelsh. '03, 0.01 mg_kg Digoxin iv, 0.067 h, n=3.Rengelsh. '03, 0.01 mg_kg Dig.Digoxin  [ng/ml]",
+            "MolWeight": 780.93
+          },
+          "Values": [
+            31.2538681,
+            17.9257,
+            12.86378,
+            9.84520149,
+            7.801857,
+            4.96904,
+            4.133127,
+            3.01857615,
+            2.69349813,
+            1.857585,
+            1.34674907,
+            0.8823529,
+            0.6037152,
+            0.6501548,
+            0.4179567
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time  ",
+        "QuantityInfo": {
+          "Name": "Time  ",
+          "Path": "Rengelsh. '03, 0.01 mg_kg Digoxin iv, 0.067 h, n=3, Digoxin control|Time  ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-18T11:29:29.6522504+01:00",
+          "Source": "Rengelsh. '03, 0.01 mg_kg Digoxin iv, 0.067 h, n=3.Rengelsh. '03, 0.01 mg_kg Dig.Time  [h]"
+        },
+        "Values": [
+          0.07999992,
+          0.170000076,
+          0.25,
+          0.329999924,
+          0.5,
+          0.75,
+          1.0,
+          1.25,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Gurley '08, 0.25 mg Digoxin po, n=18, Digoxin control",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Gurley '08, 0.25 mg Digoxin po, n=18.xlsx.Gurley '08, 0.25 mg Digoxin p"
+        },
+        {
+          "Name": "File",
+          "Value": "Gurley '08, 0.25 mg Digoxin po, n=18"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Gurley '08, 0.25 mg Digoxin p"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Digoxin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Digo  ",
+          "RelatedColumns": [
+            {
+              "Name": "Digo SD  ",
+              "QuantityInfo": {
+                "Name": "Digo SD  ",
+                "Path": "Gurley '08, 0.25 mg Digoxin po, n=18, Digoxin control|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|Digo SD  "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-18T11:29:17.0614372+01:00",
+                "Source": "Gurley '08, 0.25 mg Digoxin po, n=18.Gurley '08, 0.25 mg Digoxin p.Digo SD  [ng/ml]",
+                "MolWeight": 780.93
+              },
+              "Values": [
+                0.259247065,
+                0.570867538,
+                0.4504092,
+                0.3509002,
+                0.28805238,
+                0.21473,
+                0.1597381,
+                0.1518821,
+                0.0707038
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Digo  ",
+            "Path": "Gurley '08, 0.25 mg Digoxin po, n=18, Digoxin control|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|Digo  "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-18T11:29:17.0614372+01:00",
+            "Source": "Gurley '08, 0.25 mg Digoxin po, n=18.Gurley '08, 0.25 mg Digoxin p.Digo  [ng/ml]",
+            "MolWeight": 780.93
+          },
+          "Values": [
+            0.32144022,
+            0.981342137,
+            1.112275,
+            0.9315876,
+            0.7613748,
+            0.6828151,
+            0.6304419,
+            0.4418985,
+            0.2821604
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time  1",
+        "QuantityInfo": {
+          "Name": "Time  1",
+          "Path": "Gurley '08, 0.25 mg Digoxin po, n=18, Digoxin control|Time  1",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-18T11:29:17.0614372+01:00",
+          "Source": "Gurley '08, 0.25 mg Digoxin po, n=18.Gurley '08, 0.25 mg Digoxin p.Time  [h]1"
+        },
+        "Values": [
+          0.330001831,
+          0.669998169,
+          1.0,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          4.0,
+          6.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "SimulationClassifications": [
+    {
+      "Name": "Controls Digoxin",
+      "Classifiables": [
+        "Gurley, po DDI Control",
+        "Rengelshausen 2003, iv, DDI Control",
+        "Rengelshausen 2003, po, DDI Control",
+        "Tsutsumi 2002, iv, DDI Control"
+      ]
+    },
+    {
+      "Name": "DDI Clarithromycin + Digoxin",
+      "Classifiables": [
+        "Gurley, PO, DDI",
+        "Rengelshausen 2003, iv, DDI",
+        "Rengelshausen 2003, po, DDI",
+        "Tsutsumi, iv, DDI"
+      ]
+    }
+  ]
+}
